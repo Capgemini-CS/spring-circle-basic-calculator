@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-class AdditionTest {
+public class AdditionTest {
 
     AdditionService additionService = new AdditionService();
 
