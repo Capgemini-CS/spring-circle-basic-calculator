@@ -1,19 +1,12 @@
 package org.calculator;
 
 import org.calculator.service.AdditionService;
-import org.junit.jupiter.api.Test;
-import org.springframework.beans.factory.annotation.Autowired;
+import org.junit.Test;
 
-import static org.junit.jupiter.api.Assertions.*;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class AdditionTest {
-
-//    @Autowired
-//    AdditionService additionService;
-//
-//    public AdditionTest(AdditionService additionService) {
-//        this.additionService = additionService;
-//    }
 
     AdditionService additionService = new AdditionService();
 
