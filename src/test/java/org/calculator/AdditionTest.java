@@ -10,7 +10,7 @@ public class AdditionTest {
     AdditionService additionService = new AdditionService();
 
     @Test
-    void executeAddition() {
+   public void executeAddition() {
         assertEquals(3, additionService.calculate(1,2));
     }
 
